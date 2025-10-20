@@ -1,6 +1,8 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @todo %>
+<% cache @product  do %>
+  <%= render @todo %>
+<% end %>
 
 <div>
   <%= link_to "Edit this todo", edit_todo_path(@todo) %> |
