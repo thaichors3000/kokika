@@ -3,9 +3,11 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+### Tech Stacks
+* Ruby 3.4.7
+* Rails 8.1.0
 
-* Ruby version
+Things you may want to cover:
 
 * System dependencies
 
